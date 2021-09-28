@@ -11,7 +11,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        MyDate date1 = new MyDate(2002, "July",6);
+        MyDate birthday = new MyDate(2002, "July",6);
         MyDate date2 = new MyDate();
 
         Tile tile1 = new Tile(10, 'c');
@@ -28,7 +28,7 @@ public class Main {
         tile3.setLetter('w');
 
         printDate(date2);
-        printDate(date1);
+        printDate(birthday);
 
     }
 }
